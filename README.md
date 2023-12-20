@@ -3,7 +3,7 @@ The project was divided into four milestones, each focusing on different aspects
 
 Project Description:
 
-*Milestone 0:*
+# Milestone 0:
 
 In Milestone 0, the goal is to build a chatting application using a client-server model. The application should have the following features:
   1. The client can initiate a chat with the server at any time.
