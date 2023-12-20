@@ -1,7 +1,7 @@
 # Client-Server
 The project was divided into four milestones, each focusing on different aspects of the client-server model. The milestones were designed to explore various ways of implementing and utilizing the client-server architecture.
 
-Project Description:
+# Project Description:
 
 ## Milestone 0:
 
@@ -12,7 +12,7 @@ In Milestone 0, the goal is to build a chatting application using a client-serve
   4. The chat connections are based on the TCP protocol.
 Note: The server should continue running even if a client terminates, allowing subsequent clients to connect and chat with the server in Milestone 1.
 
-Milestone 1: 
+## Milestone 1: 
 In Milestone 1, the objective is to extend the chatting application to support multiple clients and a single server. The application should have the following features:
 1. The server should be able to communicate with multiple clients concurrently using threading.
 2. The server should store client information such as connection socket and output stream using a suitable data structure (e.g., linked list, array).
