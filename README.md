@@ -37,6 +37,15 @@ In Milestone 2, the project focuses on utilizing IoT and client-server communica
 Note: Milestone 2 focuses on establishing the communication between the ESP8266 clients and the server, with the clients sending sensor data periodically to be stored on the server for future analysis.
 
 
-Milestone 3: The final milestone involved implementing advanced features in the client-server model. The team incorporated real-time communication capabilities, allowing clients to receive instant updates from the server. Additionally, they integrated a robust error handling mechanism to ensure fault tolerance and graceful recovery from failures.
+# Milestone 3: 
+
+Milestone 3 requires the implementation of a complete IoT system by connecting the ESP8266 module to the ThingsBoard IoT platform. The main objective is to replace the Python server from the previous milestone with the ThingsBoard platform. The following requirements must be met:
+
+  1. Sign up for a Community Edition Live Demo account on the ThingsBoard IoT platform. You can use this follow up link 
+  https://thingsboard.io/installations/
+  2. Send temperature readings obtained by the ESP8266 module to the ThingsBoard platform at a constant time interval (e.g., every 30 seconds).
+  3. The ThingsBoard platform should monitor the temperature values sent from the ESP module.
+
+To connect the ESP8266 with the ThingsBoard IoT platform, follow the steps outlined in the YouTube video provided in the link: https://www.youtube.com/watch?v=4xfKhU5U_ME.
 
 Overall, the project explored different aspects of the client-server model, including basic communication, security, scalability, performance optimization, real-time updates, and error handling. Each milestone contributed to the development of a comprehensive and efficient client-server architecture.
