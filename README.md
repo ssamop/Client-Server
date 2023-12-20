@@ -13,17 +13,29 @@ In Milestone 0, the goal is to build a chatting application using a client-serve
 Note: The server should continue running even if a client terminates, allowing subsequent clients to connect and chat with the server in Milestone 1.
 
 ## Milestone 1: 
+
 In Milestone 1, the objective is to extend the chatting application to support multiple clients and a single server. The application should have the following features:
-1. The server should be able to communicate with multiple clients concurrently using threading.
-2. The server should store client information such as connection socket and output stream using a suitable data structure (e.g., linked list, array).
-3. Each client can initiate a chat with the server at any time.
-4. The server responds by echoing the message sent by the corresponding client in capitalized format.
-5. The connection between a client and the server remains open until the client sends a message containing "CLOSE SOCKET," upon which the connection is closed.
-6. The chat connections continue to use the TCP protocol.
+  1. The server should be able to communicate with multiple clients concurrently using threading.
+  2. The server should store client information such as connection socket and output stream using a suitable data structure (e.g., linked list, array).
+  3. Each client can initiate a chat with the server at any time.
+  4. The server responds by echoing the message sent by the corresponding client in capitalized format.
+  5. The connection between a client and the server remains open until the client sends a message containing "CLOSE SOCKET," upon which the connection is closed.
+  6. The chat connections continue to use the TCP protocol.
 Note: You can use the provided client code or continue building upon the client code from Milestone 0. For the server side and implementing threading, you can refer to the provided hints or choose any other coding approach that you understand and prefer.
 
 
-Milestone 2: This milestone aimed to optimize the client-server model for scalability and performance. The team implemented load balancing techniques to distribute incoming client requests across multiple servers, improving the system's responsiveness and resource utilization.
+## Milestone 2: 
+
+In Milestone 2, the project focuses on utilizing IoT and client-server communication to collect and analyze sensor data. The key points are as follows:
+  1. The project involves using an ESP8266 Wi-Fi module as the client, which periodically sends sensor readings (such as temperature or light) to the server.
+  2. Each team should have at least two ESP8266 modules functioning as clients, sending data to the server implemented in previous milestones.
+  3. The clients should be able to send data (numbers or strings) to the server.
+  4. The clients should periodically send data to the server.
+  5. The server should be capable of communicating with multiple clients simultaneously, as in Milestone 1.
+  6. Required materials include ESP8266 Wi-Fi modules, sensors (e.g., temperature or light sensors), Python IDE for the server, and Arduino IDE for programming the ESP8266 clients.
+  7. The ESP8266 modules need to be connected to the Arduino IDE following specific steps, including installing the ESP8266 platform and selecting the NodeMCU 1.0 (ESP-12E Module) board.
+Note: Milestone 2 focuses on establishing the communication between the ESP8266 clients and the server, with the clients sending sensor data periodically to be stored on the server for future analysis.
+
 
 Milestone 3: The final milestone involved implementing advanced features in the client-server model. The team incorporated real-time communication capabilities, allowing clients to receive instant updates from the server. Additionally, they integrated a robust error handling mechanism to ensure fault tolerance and graceful recovery from failures.
 
