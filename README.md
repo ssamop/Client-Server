@@ -52,3 +52,5 @@ Overall, the project explored different aspects of the client-server model, incl
 
 # Here are some previews 
 ![ ](dashboardofthingsboard.jpg)
+![ ](monitorofblueesp.jpg)
+![ ](monitorofredesp.jpg)
