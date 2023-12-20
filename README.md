@@ -51,6 +51,6 @@ To connect the ESP8266 with the ThingsBoard IoT platform, follow the steps outli
 Overall, the project explored different aspects of the client-server model, including basic communication, security, scalability, performance optimization, real-time updates, and error handling. Each milestone contributed to the development of a comprehensive and efficient client-server architecture.
 
 # Here are some previews 
-![ ](dashboardofthingsboard.jpg)
-![ ](monitorofblueesp.jpg)
-![ ](monitorofredsp.jpg)
+![ ](previews/dashboardofthingsboard.jpg)
+![ ](previews/monitorofblueesp.jpg)
+![ ](previews/monitorofredsp.jpg)
