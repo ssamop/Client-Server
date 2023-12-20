@@ -37,7 +37,7 @@ In Milestone 2, the project focuses on utilizing IoT and client-server communica
 Note: Milestone 2 focuses on establishing the communication between the ESP8266 clients and the server, with the clients sending sensor data periodically to be stored on the server for future analysis.
 
 
-# Milestone 3: 
+## Milestone 3: 
 
 Milestone 3 requires the implementation of a complete IoT system by connecting the ESP8266 module to the ThingsBoard IoT platform. The main objective is to replace the Python server from the previous milestone with the ThingsBoard platform. The following requirements must be met:
 
